@@ -10,7 +10,7 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 
-public class TaxiWritable implements  Writable {
+public class   TaxiWritable implements  Writable {
 
     private Text trip_id,call_type, origin_call, origin_stand, day_type,taxi_id ,polyline;
     private BooleanWritable missing_data;
