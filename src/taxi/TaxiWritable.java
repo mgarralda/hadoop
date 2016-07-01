@@ -10,7 +10,7 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 
-public class   TaxiWritable implements  Writable {
+public class  TaxiWritable implements  Writable {
 
     private Text trip_id,call_type, origin_call, origin_stand, day_type,taxi_id ,polyline;
     private BooleanWritable missing_data;
@@ -18,7 +18,7 @@ public class   TaxiWritable implements  Writable {
     private FloatWritable distance,tripTime;
 
 
-    public TaxiWritable(){
+    public   TaxiWritable(){
 
         this.trip_id = new Text();
         this.call_type = new Text();
@@ -35,7 +35,7 @@ public class   TaxiWritable implements  Writable {
 
     }
 
-    public TaxiWritable(String trip_id, String call_type, String origin_call, String origin_stand
+    public  TaxiWritable(String trip_id, String call_type, String origin_call, String origin_stand
             ,Text taxi_id, int timestamp, String day_type, String polyline, boolean missing_data){
 
         this.trip_id = new Text(trip_id);

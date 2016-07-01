@@ -36,7 +36,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
 
 
 
-public class   Taxi1
+public class    Taxi1
 {
     public static class TaxiMapper
             extends Mapper<Object, Text, Text, TaxiWritable>
