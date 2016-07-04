@@ -1,4 +1,6 @@
-NOTAS PARA EL INFORME FINAL.
+NOTAS PARA EL INFORME FINAL Y SUBIR EL ENLACE A LA PRÁCTICA CON TODO LO MENCIONADO ANTES DE LAS  17:55
+
+
 
 Describir los diferentes elementos del gráfico (inputFileFormatCustom, mappers y reducers) su funcionalidad
 Encastar el gráfico en el documento, si bien se puede dejar también el fichero jpg
