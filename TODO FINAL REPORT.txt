@@ -1,0 +1,50 @@
+NOTAS PARA EL INFORME FINAL.
+
+Describir los diferentes elementos del gráfico (inputFileFormatCustom, mappers y reducers) su funcionalidad
+Encastar el gráfico en el documento, si bien se puede dejar también el fichero jpg
+
+Detallar las carpetas del proyecto en github
+· inputData (con fichero de entrada)
+· results (con los txt de resultados statistics y top n distance
+· finalreport (con gráfico y reporte)
+· src (con todo el código)
+
+
+Detallar los elementos siguientes como características avanzadas usadas en el proyecto.
+
+
+· Custom Input File Format
+InputTaxiTripForma (read json format)
+
+
+· Tipos personalizados WriteableComparable
+
+TaxiTripWriteable
+GpsPositionsWriteable
+ArrayWritable<GpsPositionsWriteable>
+
+
+· ChainMappers
+
+Encadenados dos Mappers según gráfico
+
+
+· Mappers hadoop
+FieldSelectionMapper
+
+
+· SecuenceBinaryFile
+Al final no usado por nor ser necesario pero preparado el código para utilizarlo nada más cambiando el parámetro en el job
+
+
+·Job Control and dependecy
+Añadido control de jobs y dependencia entre jobs
+
+
+Y lo que consideres
+Como instrucciones para ejecutarlo en el cluster hdsf
+
+etc.
+
+
+
